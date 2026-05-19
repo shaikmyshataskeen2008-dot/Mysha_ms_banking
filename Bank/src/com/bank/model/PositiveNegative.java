@@ -12,6 +12,7 @@ public class PositiveNegative {
 		}
 
 		System.out.println("\nNegative numbers in the array:");
+		System.out.println("should be negative numbers");
 		for (int number : numbers) {
 			if (number < 0) {
 				System.out.println(number);
